@@ -39,5 +39,25 @@ public BuildABear(String t, String n, int fl) {
 
 // 3. METHODS (behaviors/actions)
 
+// ACCESSORS ("getters") return the value of an instance var.
+public String getType(){
+    return type;
+}
+
+public String getName(){
+    return name;
+}
+
+public int getFillLevel(){
+    retrun fillLevel;
+}
+
+public doublr getPrice(){
+    return price;
+}
+
+
+
+
 
 }
