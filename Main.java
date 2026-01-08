@@ -14,8 +14,9 @@ public class Main {
       // "BuildABear hero" is DECLARING a variable of type BuildABear
       // "new BuildABear()" is CALLINZG a CONSTRUCTOR to set up the object
 
+      // Look at our new object
+      System.out.println(hero);
       
-
 
    }
 }
