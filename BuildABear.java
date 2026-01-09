@@ -65,5 +65,17 @@ public String toString(){
 }
 
 
+// MUTATORS ("setters") are void, but accept an argument to change
+// the value of an objetc's instnace variable to something new
+
+// only need setters for variables you WANT the user to change
+public void setName(String newName) {
+    // assign the object's name to the new value
+    this.name = newName;
+}
+public void setFillLevel(int newFillLevel) {
+    this.fillLevel = newFillLevel;
+}
+
 
 } // end class
