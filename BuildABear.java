@@ -12,6 +12,12 @@ private double price;
 private boolean hasSpeaker;
 private String recording;
 // ENCAPSULATION: keep variables private (they can't be directly accessed outside of this CLASS)
+// they cannot be directly accessed outside of
+// this Java CLASS (data is protected from users)
+
+// STATIC VARIABLES belong to the general Class
+private static String storeLocation = "Murray Hill";
+private static int inventoryCount = 50;
 
 // 2. CONSTRUCTORS (initialize values)
 // DEFAULT CONSTUCTOR does not take any arguments (no-arg)
@@ -75,6 +81,12 @@ public void setName(String newName) {
 }
 public void setFillLevel(int newFillLevel) {
     this.fillLevel = newFillLevel;
+}
+
+// STATIC METHODS are behaviors that belong to the Class
+// (do not depend on specific object instances)
+public static void showStore() {
+    System.out.println("Welcome to" + storeLocation + "Build a Bear Workshop");
 }
 
 
